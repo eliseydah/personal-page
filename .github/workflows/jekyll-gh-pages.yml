@@ -21,15 +21,32 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+name: CI
+
+on: [push]
+
 jobs:
-  build_deploy_vue:
+  build:
     runs-on: ubuntu-latest
-    name: Build and Deploy Vue
+
     steps:
-    - uses: actions/checkout@v2
-    - id: Build-Deploy-Vue
-      uses: thefrustrateddev/vue-deploy-github-pages@v1.0.0
-      with:
-        username: 'eliseydah'
-        reponame: 'personal-page'
-        token: ${{ secrets.GITHUB_TOKEN }} # no need to change this line this is used to create the branch in your application repository
+      - name: 🛎️ Checkout code
+        uses: actions/checkout@v4
+
+      - name: 📦 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '21'
+
+      - name: 📥 Install dependencies
+        run: npm install
+
+      - name: 🏗️ Build
+        run: npm run build
+
+      - name: 🚀Deploy to GitHub Pages🚀  // --> this deploys to gh-pages
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
