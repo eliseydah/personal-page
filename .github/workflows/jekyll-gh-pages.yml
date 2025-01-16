@@ -21,10 +21,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-name: CI
-
-on: [push]
-
 jobs:
   build:
     runs-on: ubuntu-latest
