@@ -2,6 +2,8 @@
 
 <template>
   <section class="main">
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/mountains.jpg" width="125" height="125" /> -->
+
     <ul class="container">
       <li><a href="">HOME</a></li>
       <li><a href="">ABOUT</a></li>
