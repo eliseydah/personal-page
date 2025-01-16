@@ -22,18 +22,14 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
-  build:
+  build_deploy_vue:
     runs-on: ubuntu-latest
+    name: Build and Deploy Vue
     steps:
-      - run: npm run build
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - run: npm run deploy
+    - uses: actions/checkout@v2
+    - id: Build-Deploy-Vue
+      uses: thefrustrateddev/vue-deploy-github-pages@v1.0.0
+      with:
+        username: 'eliseydah'
+        reponame: 'personal-page'
+        token: ${{ secrets.GITHUB_TOKEN }} # no need to change this line this is used to create the branch in your application repository
