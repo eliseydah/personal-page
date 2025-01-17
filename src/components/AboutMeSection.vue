@@ -3,7 +3,6 @@
   <section>
     <p class="title">ABOUT ME</p>
     <div class="contain">
-      <div><img src="./forest.jpg;" alt="" width="50" height="60" /></div>
       <div class="text-box">
         <h3>Hello, world!</h3>
         <h5>I'm Daria Eliseeva</h5>
