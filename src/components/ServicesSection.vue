@@ -6,7 +6,13 @@
   <div class="card-container">
     <div class="card">
       <div class="description">
-        <img src="./forest.jpg" alt="" width="50" height="60" />
+        <img
+          src="../assets/icons/list-svgrepo-com.svg"
+          class="svg-icon"
+          alt=""
+          width="50"
+          height="60"
+        />
         <h3>To-do list</h3>
         <p>
           A simple application for managing task lists. Allows you to add, delete and mark tasks as
@@ -19,7 +25,7 @@
     </div>
     <div class="card">
       <div class="description">
-        <img src="./forest.jpg" alt="" width="50" height="60" />
+        <img src="../assets/icons/message.svg" class="svg-icon" alt="" width="50" height="60" />
         <h3>Chat page</h3>
         <p>
           A simple application that simulates chat functionality, showcasing only the frontend
@@ -176,5 +182,9 @@ a {
 a:hover {
   background-color: rgba(240, 248, 255, 0.295);
   border-radius: 10px;
+}
+
+.svg-icon {
+  filter: invert(27%) sepia(100%) saturate(7496%) hue-rotate(180deg) brightness(95%) contrast(101%);
 }
 </style>
