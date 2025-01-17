@@ -17,11 +17,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 90vh;
 }
 
 .box {
   text-align: center;
   line-height: 50px;
+  font-size: large;
+  background-color: rgba(240, 248, 255, 0.295);
+  padding: 1rem 2rem;
 }
 </style>

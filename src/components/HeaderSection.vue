@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-  background-color: rgba(3, 33, 43, 0.101);
+  background-color: rgba(240, 248, 255, 0.295);
   border-radius: 10px;
 }
 </style>
