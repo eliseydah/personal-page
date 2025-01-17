@@ -1,28 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import CardComponent from './CardComponent.vue'
+</script>
 <template>
   <section>
     <p class="title">Services area</p>
   </section>
   <div class="card-container">
-    <div class="card">
-      <div class="description">
-        <img
-          src="../assets/icons/list-svgrepo-com.svg"
-          class="svg-icon"
-          alt=""
-          width="50"
-          height="60"
-        />
-        <h3>To-do list</h3>
-        <p>
-          A simple application for managing task lists. Allows you to add, delete and mark tasks as
-          completed.
-        </p>
-      </div>
-      <div class="forLink">
-        <a href="https://github.com/eliseydah/todo-js/tree/master/todo">go to To-do list </a>
-      </div>
-    </div>
+    <CardComponent
+      iconFilename="message.svg"
+      title="To-do list"
+      description="A simple application for managing task lists. Allows you to add, delete and mark tasks as completed."
+      link="https://github.com/eliseydah/todo-js/tree/master/todo"
+    />
     <div class="card">
       <div class="description">
         <img src="../assets/icons/message.svg" class="svg-icon" alt="" width="50" height="60" />
