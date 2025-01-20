@@ -19,6 +19,13 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  /* custom colors */
+  --main-bg-color: rgb(10, 16, 30);
+  --card-bg-color: rgb(16, 22, 36);
+  --primary-text-color: rgb(255, 255, 255);
+  --secondary-text-color: rgb(88, 91, 114);
+  --important-text-color: rgb(251, 198, 69);
 }
 
 /* semantic color variables for this project */
