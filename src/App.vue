@@ -6,12 +6,34 @@ import ServicesSection from './components/ServicesSection.vue'
 </script>
 
 <template>
-  <HeaderSection></HeaderSection>
-  <IntroductionSection></IntroductionSection>
-  <AboutMeSection></AboutMeSection>
-  <ServicesSection></ServicesSection>
+  <div class="face-page">
+    <HeaderSection></HeaderSection>
+    <IntroductionSection></IntroductionSection>
+  </div>
+  <div class="continuation">
+    <AboutMeSection></AboutMeSection>
+    <ServicesSection></ServicesSection>
+  </div>
   <!-- We don't need router yet -->
   <!-- <RouterView /> -->
 </template>
 
-<style scoped></style>
+<style scoped>
+.face-page {
+  background-image: url(./assets//mountains.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.continuation {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+</style>

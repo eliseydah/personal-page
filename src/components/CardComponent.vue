@@ -49,12 +49,13 @@ function getImageUrl() {
 
 <style scoped>
 .card {
-  background-color: rgba(240, 248, 255, 0.5);
+  background-color: rgba(240, 248, 255, 0.8);
   padding: 1rem 1rem 0.5rem;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
   flex-direction: column;
+  border-radius: 5%;
 }
 h3 {
   font-weight: 500;
@@ -82,11 +83,11 @@ a {
 }
 
 a:hover {
-  background-color: rgba(240, 248, 255, 0.495);
+  background-color: rgba(240, 248, 255, 0.85);
   border-radius: 10px;
 }
 
 .svg-icon {
-  filter: invert(27%) sepia(100%) saturate(549%) hue-rotate(180deg) brightness(75%) contrast(101%);
+  filter: invert(47%) sepia(100%) saturate(719%) hue-rotate(180deg) brightness(85%) contrast(91%);
 }
 </style>

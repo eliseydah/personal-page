@@ -23,8 +23,9 @@
 .box {
   text-align: center;
   line-height: 50px;
+  width: 70%;
   font-size: large;
-  background-color: rgba(240, 248, 255, 0.295);
+  background-color: rgba(240, 248, 255, 0.5);
   padding: 1rem 2rem;
 }
 </style>

@@ -50,7 +50,7 @@ const cards = [
 </script>
 <template>
   <section>
-    <p class="title">Services area</p>
+    <p class="title">SERVICES AREA</p>
   </section>
   <div class="card-container">
     <CardComponent

@@ -10,25 +10,30 @@
       <li><a href="">RESUME</a></li>
       <li><a href="">PORTFOLIO</a></li>
       <li><a href="">CONTACT</a></li>
+      <li><span>My Number</span></li>
     </ul>
-    <p>My Number</p>
   </section>
 </template>
 <style scoped>
 .main {
-  padding: 0rem, 2rem;
+  /* padding: 0rem, 2rem; */
   display: flex;
-  flex-direction: raw;
-  justify-content: space-between;
-  color: darkblue;
+  /* flex-direction: raw;
+  justify-content: space-between; */
+  /* color: darkblue; */
 }
 .container {
+  width: 100%;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: raw;
+  justify-content: center;
+  align-items: flex-end;
   gap: 4rem;
   list-style-type: none;
 }
-a {
+a,
+span {
   color: darkblue;
   text-decoration: none;
   padding: 1rem 3rem;
