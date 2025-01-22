@@ -3,10 +3,6 @@ import SignComponent from './SignComponent.vue'
 </script>
 <template>
   <SignComponent msg="ABOUT ME"></SignComponent>
-  <!-- <section class="container-sign">
-    <p class="text-front">ABOUT ME</p>
-    <p class="text-back">ABOUT ME</p>
-  </section> -->
   <section>
     <div class="contain">
       <div>
