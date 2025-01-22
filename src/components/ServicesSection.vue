@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import SignComponent from './SignComponent.vue'
 import CardComponent from './CardComponent.vue'
 const cards = [
   {
@@ -41,7 +42,7 @@ const cards = [
   },
   {
     iconFilename: 'layout.svg',
-    title: 'A layout training',
+    title: 'Layout training',
     description:
       'A simple application for creating a list of wishes. It allows you to create a wish card, describe a wish, upload a picture, add a link, and delete the wish card.',
     linkJS: 'https://github.com/eliseydah/todo-js/tree/master/landing',
@@ -50,7 +51,8 @@ const cards = [
 </script>
 <template>
   <section>
-    <p class="title">SERVICES AREA</p>
+    <SignComponent msg="MY PROJECTS" />
+    <!-- <p class="title">SERVICES AREA</p> -->
   </section>
   <div class="card-container">
     <CardComponent

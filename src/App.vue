@@ -3,6 +3,7 @@ import IntroductionSection from './components/IntroductionSection.vue'
 import HeaderSection from './components/HeaderSection.vue'
 import AboutMeSection from './components/AboutMeSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
+import LanguagesAndToolsSection from './components/LanguagesAndToolsSection.vue'
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import ServicesSection from './components/ServicesSection.vue'
   <div class="continuation">
     <AboutMeSection></AboutMeSection>
     <ServicesSection></ServicesSection>
+    <LanguagesAndToolsSection></LanguagesAndToolsSection>
   </div>
   <!-- We don't need router yet -->
   <!-- <RouterView /> -->
