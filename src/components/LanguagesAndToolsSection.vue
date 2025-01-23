@@ -19,6 +19,14 @@ import SignComponent from './SignComponent.vue'
 .icons {
   filter: invert(100%);
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
+}
+@media (max-width: 576px) {
+  .icons {
+    display: flex;
+    flex-direction: raw;
+    flex-wrap: wrap;
+  }
 }
 </style>

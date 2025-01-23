@@ -51,4 +51,11 @@ onUnmounted(() => {
 img {
   filter: invert(100%);
 }
+@media (max-width: 576px) {
+  .footer-container {
+    display: flex;
+    flex-direction: raw;
+    flex-wrap: wrap;
+  }
+}
 </style>

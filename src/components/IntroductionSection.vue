@@ -18,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  /* height: 90vh; */
 }
 p {
   line-height: 2rem;
@@ -30,5 +30,12 @@ p {
   font-size: large;
   background-color: rgba(240, 248, 255, 0.5);
   padding: 1rem 2rem;
+}
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 </style>

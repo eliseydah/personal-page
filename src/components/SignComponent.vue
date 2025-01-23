@@ -12,7 +12,7 @@ defineProps<{
 <style scoped>
 .container-sign {
   position: relative;
-  height: 10vh;
+  /* height: 10vh; */
   display: flex;
   justify-content: center;
   align-items: center;

@@ -10,6 +10,7 @@ import LinksComponent from './LinksComponent.vue'
       <li><a href="#my-projects">MY PROJECTS</a></li>
       <li><a href="#skills">SKILLS</a></li>
     </ul>
+
     <LinksComponent class="links"></LinksComponent>
   </section>
 </template>
@@ -41,5 +42,25 @@ span {
 
 a:hover {
   color: var(--important-text-color);
+}
+@media (max-width: 576px) {
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    align-items: end;
+  }
+  .links {
+    align-items: flex-end;
+  }
 }
 </style>
