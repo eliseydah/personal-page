@@ -34,6 +34,11 @@ import FooterSection from './components/FooterSection.vue'
   background-size: cover;
   width: 100vw;
   height: 100vh;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./assets//mountains.jpg) no-repeat center center;
+  background-size: cover;
 }
 .continuation {
   max-width: 1280px;

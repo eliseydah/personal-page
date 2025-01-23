@@ -2,6 +2,7 @@
 import SignComponent from './SignComponent.vue'
 </script>
 <template>
+  <span id="skills"></span>
   <SignComponent msg="LANGUAGES AND TOOLS"></SignComponent>
   <section class="icons">
     <img src="../assets/icons/javascript.svg" width="40" height="40" />

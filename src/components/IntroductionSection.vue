@@ -1,5 +1,6 @@
 <script setup lang="ts"></script>
 <template>
+  <span id="home"></span>
   <section class="container">
     <div class="box">
       <h1>HI! I am Daria Eliseeva</h1>
@@ -19,7 +20,9 @@
   align-items: center;
   height: 90vh;
 }
-
+p {
+  line-height: 2rem;
+}
 .box {
   text-align: center;
   line-height: 50px;

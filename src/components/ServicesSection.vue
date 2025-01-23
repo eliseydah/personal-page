@@ -51,6 +51,7 @@ const cards = [
 </script>
 <template>
   <section>
+    <span id="my-projects"></span>
     <SignComponent msg="MY PROJECTS" />
     <!-- <p class="title">SERVICES AREA</p> -->
   </section>

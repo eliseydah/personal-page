@@ -5,10 +5,10 @@ import LinksComponent from './LinksComponent.vue'
 <template>
   <section class="main">
     <ul class="header-container">
-      <li><a href="">HOME</a></li>
-      <li><a href="">ABOUT ME</a></li>
-      <li><a href="">MY PROJECTS</a></li>
-      <li><a href="">SKILLS</a></li>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about-me">ABOUT ME</a></li>
+      <li><a href="#my-projects">MY PROJECTS</a></li>
+      <li><a href="#skills">SKILLS</a></li>
     </ul>
     <LinksComponent class="links"></LinksComponent>
   </section>

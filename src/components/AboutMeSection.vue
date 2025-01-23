@@ -2,8 +2,9 @@
 import SignComponent from './SignComponent.vue'
 </script>
 <template>
+  <span id="about-me"></span>
   <SignComponent msg="ABOUT ME"></SignComponent>
-  <section>
+  <section id="about-me">
     <div class="contain">
       <div>
         <img src="../assets/forest.jpg" width="250" height="300" />
