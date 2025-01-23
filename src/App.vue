@@ -4,6 +4,7 @@ import HeaderSection from './components/HeaderSection.vue'
 import AboutMeSection from './components/AboutMeSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import LanguagesAndToolsSection from './components/LanguagesAndToolsSection.vue'
+import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import LanguagesAndToolsSection from './components/LanguagesAndToolsSection.vue'
     <AboutMeSection></AboutMeSection>
     <ServicesSection></ServicesSection>
     <LanguagesAndToolsSection></LanguagesAndToolsSection>
+    <FooterSection></FooterSection>
   </div>
   <!-- We don't need router yet -->
   <!-- <RouterView /> -->
