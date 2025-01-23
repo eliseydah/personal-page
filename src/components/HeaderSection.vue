@@ -6,11 +6,9 @@
 
     <ul class="container">
       <li><a href="">HOME</a></li>
-      <li><a href="">ABOUT</a></li>
-      <li><a href="">RESUME</a></li>
-      <li><a href="">PORTFOLIO</a></li>
-      <li><a href="">CONTACT</a></li>
-      <li><span>My Number</span></li>
+      <li><a href="">ABOUT ME</a></li>
+      <li><a href="">MY PROJECTS</a></li>
+      <li><a href="">SKILLS</a></li>
     </ul>
   </section>
 </template>
