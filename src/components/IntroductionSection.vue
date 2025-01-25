@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15rem 0rem;
   /* height: 90vh; */
 }
 p {
@@ -36,6 +37,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 0rem;
   }
 }
 </style>
