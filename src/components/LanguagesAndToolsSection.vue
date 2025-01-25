@@ -2,6 +2,7 @@
 import SignComponent from './SignComponent.vue'
 </script>
 <template>
+  <span id="skills"></span>
   <SignComponent msg="LANGUAGES AND TOOLS"></SignComponent>
   <section class="icons">
     <img src="../assets/icons/javascript.svg" width="40" height="40" />
@@ -18,6 +19,14 @@ import SignComponent from './SignComponent.vue'
 .icons {
   filter: invert(100%);
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
+}
+@media (max-width: 576px) {
+  .icons {
+    display: flex;
+    flex-direction: raw;
+    flex-wrap: wrap;
+  }
 }
 </style>

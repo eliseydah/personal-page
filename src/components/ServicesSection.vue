@@ -51,6 +51,7 @@ const cards = [
 </script>
 <template>
   <section>
+    <span id="my-projects"></span>
     <SignComponent msg="MY PROJECTS" />
     <!-- <p class="title">SERVICES AREA</p> -->
   </section>
@@ -64,34 +65,6 @@ const cards = [
       :link-js="card.linkJS"
       :link-vue="card.linkVue"
     />
-
-    <!-- <div class="card">
-      <div class="description">
-        <img src="./forest.jpg" alt="" width="50" height="60" />
-        <h3>Vue Wishlist</h3>
-        <p>
-          A simple application for creating a list of wishes. It allows you to create a wish card,
-          describe a wish, upload a picture, add a link, and delete the wish card.
-        </p>
-      </div>
-      <div class="forLink">
-        <a href="https://github.com/eliseydah/todo-js/tree/master/vue-wishlist">
-          go to vue wishlist</a
-        >
-      </div>
-    </div>
-    <div class="card">
-      <div class="description">
-        <img src="./forest.jpg" alt="" width="50" height="60" />
-        <h3>Vue Weather widget</h3>
-        <p>A simple web-page which allows to search a weather.</p>
-      </div>
-      <div class="forLink">
-        <a href="https://github.com/eliseydah/todo-js/tree/master/vue-weather-widget">
-          go to vue weather widget</a
-        >
-      </div>
-    </div> -->
   </div>
 </template>
 <style scoped>
@@ -103,5 +76,11 @@ const cards = [
   /* justify-content: space-around; */
   gap: 1rem;
   margin-top: 1rem;
+}
+@media (max-width: 576px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 </style>

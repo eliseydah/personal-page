@@ -1,28 +1,30 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import LinksComponent from './LinksComponent.vue'
+</script>
 
 <template>
   <section class="main">
-    <!-- <img alt="Vue logo" class="logo" src="@/assets/mountains.jpg" width="125" height="125" /> -->
-
-    <ul class="container">
-      <li><a href="">HOME</a></li>
-      <li><a href="">ABOUT ME</a></li>
-      <li><a href="">MY PROJECTS</a></li>
-      <li><a href="">SKILLS</a></li>
+    <ul class="header-container">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about-me">ABOUT ME</a></li>
+      <li><a href="#my-projects">MY PROJECTS</a></li>
+      <li><a href="#skills">SKILLS</a></li>
     </ul>
+
+    <LinksComponent class="links"></LinksComponent>
   </section>
 </template>
 <style scoped>
 .main {
-  /* padding: 0rem, 2rem; */
-  display: flex;
-  /* flex-direction: raw;
-  justify-content: space-between; */
-  /* color: darkblue; */
-}
-.container {
   width: 100%;
-  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-container {
+  /* width: 100%; */
+  /* margin-top: 1.5rem; */
   display: flex;
   flex-direction: raw;
   justify-content: center;
@@ -32,13 +34,33 @@
 }
 a,
 span {
-  color: darkblue;
+  color: var(--primary-text-color);
   text-decoration: none;
-  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  /* padding: 1rem 3rem; */
 }
 
 a:hover {
-  background-color: rgba(240, 248, 255, 0.295);
-  border-radius: 10px;
+  color: var(--important-text-color);
+}
+@media (max-width: 576px) {
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    align-items: end;
+  }
+  .links {
+    align-items: flex-end;
+  }
 }
 </style>

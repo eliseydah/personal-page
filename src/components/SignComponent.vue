@@ -12,9 +12,10 @@ defineProps<{
 <style scoped>
 .container-sign {
   position: relative;
-  height: 10vh;
+  /* height: 10vh; */
   display: flex;
   justify-content: center;
+  padding: 3rem 0rem;
   align-items: center;
   margin: 2rem 2rem;
 }
@@ -33,5 +34,13 @@ defineProps<{
   font-weight: bold;
   color: var(--important-text-color);
   z-index: 2;
+}
+@media (max-width: 576px) {
+  .container-sign {
+    padding: 1rem 0rem;
+  }
+  .text-back {
+    font-size: 2rem;
+  }
 }
 </style>

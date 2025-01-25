@@ -2,6 +2,7 @@
 import SignComponent from './SignComponent.vue'
 </script>
 <template>
+  <span id="about-me"></span>
   <SignComponent msg="ABOUT ME"></SignComponent>
   <section>
     <div class="contain">
@@ -29,10 +30,11 @@ import SignComponent from './SignComponent.vue'
   background-color: var(--card-bg-color);
   padding: 3rem 3rem;
   display: flex;
-  gap: 2rem;
+  /* gap: 2rem; */
+  box-sizing: content-box;
   justify-content: space-around;
   align-items: center;
-  height: 50vh;
+  /* height: 50vh; */
 }
 .text-box {
   display: flex;
@@ -61,5 +63,11 @@ h5 {
   font-size: 1.5rem;
   color: var(--important-text-color);
   font-weight: bold;
+}
+@media (max-width: 576px) {
+  .contain {
+    display: flex;
+    flex-direction: column;
+  }
 }
 </style>

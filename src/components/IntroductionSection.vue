@@ -1,5 +1,6 @@
 <script setup lang="ts"></script>
 <template>
+  <span id="home"></span>
   <section class="container">
     <div class="box">
       <h1>HI! I am Daria Eliseeva</h1>
@@ -17,9 +18,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  padding: 15rem 0rem;
+  /* height: 90vh; */
 }
-
+p {
+  line-height: 2rem;
+}
 .box {
   text-align: center;
   line-height: 50px;
@@ -27,5 +31,13 @@
   font-size: large;
   background-color: rgba(240, 248, 255, 0.5);
   padding: 1rem 2rem;
+}
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0rem;
+  }
 }
 </style>

@@ -4,6 +4,7 @@ import HeaderSection from './components/HeaderSection.vue'
 import AboutMeSection from './components/AboutMeSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import LanguagesAndToolsSection from './components/LanguagesAndToolsSection.vue'
+import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import LanguagesAndToolsSection from './components/LanguagesAndToolsSection.vue'
     <AboutMeSection></AboutMeSection>
     <ServicesSection></ServicesSection>
     <LanguagesAndToolsSection></LanguagesAndToolsSection>
+    <FooterSection></FooterSection>
   </div>
   <!-- We don't need router yet -->
   <!-- <RouterView /> -->
@@ -32,6 +34,11 @@ import LanguagesAndToolsSection from './components/LanguagesAndToolsSection.vue'
   background-size: cover;
   width: 100vw;
   height: 100vh;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./assets//mountains.jpg) no-repeat center center;
+  background-size: cover;
 }
 .continuation {
   max-width: 1280px;
