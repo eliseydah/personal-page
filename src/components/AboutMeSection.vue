@@ -7,7 +7,7 @@ import SignComponent from './SignComponent.vue'
   <section>
     <div class="contain">
       <div>
-        <img src="../assets/forest.jpg" width="250" height="300" />
+        <img src="../assets/forests.jpg" width="250" height="300" />
       </div>
       <div class="text-box">
         <h3>Hi there! I'm Daria Eliseeva</h3>
