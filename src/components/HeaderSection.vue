@@ -10,7 +10,6 @@ import LinksComponent from './LinksComponent.vue'
       <li><a href="#my-projects">MY PROJECTS</a></li>
       <li><a href="#skills">SKILLS</a></li>
     </ul>
-
     <LinksComponent class="links"></LinksComponent>
   </section>
 </template>
@@ -23,6 +22,7 @@ import LinksComponent from './LinksComponent.vue'
   align-items: center;
 }
 .header-container {
+  /* todo: remove comments */
   /* width: 100%; */
   /* margin-top: 1.5rem; */
   display: flex;
@@ -43,6 +43,8 @@ span {
 a:hover {
   color: var(--important-text-color);
 }
+
+/* todo: use CSS variables for the max-width, replace in other components too */
 @media (max-width: 576px) {
   .header-container {
     display: flex;
@@ -59,6 +61,7 @@ a:hover {
     margin-bottom: 50px;
     align-items: end;
   }
+  /* todo: rename to socials */
   .links {
     align-items: flex-end;
   }

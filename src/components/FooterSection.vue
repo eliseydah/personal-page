@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 import LinksComponent from './LinksComponent.vue'
+// todo: use EN locale
 const currentTime = ref(new Date().toLocaleTimeString('ru-RU')) // Текущее время
 let timer: number
 
+// todo: use English for comments
 // Запускаем интервал для обновления времени
 onMounted(() => {
   timer = setInterval(() => {

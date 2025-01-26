@@ -4,6 +4,7 @@ import SignComponent from './SignComponent.vue'
 <template>
   <span id="skills"></span>
   <SignComponent msg="LANGUAGES AND TOOLS"></SignComponent>
+  <!-- todo: 1. use a separate component for this icon. 2. Use v-for to render it. -->
   <section class="icons">
     <img src="../assets/icons/javascript.svg" width="40" height="40" />
     <img src="../assets/icons/vue.svg" width="40" height="40" />

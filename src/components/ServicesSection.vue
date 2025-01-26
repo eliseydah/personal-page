@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import SignComponent from './SignComponent.vue'
 import CardComponent from './CardComponent.vue'
+// todo: add Sergej's application
 const cards = [
   {
     iconFilename: 'list.svg',

@@ -23,6 +23,7 @@ import FooterSection from './components/FooterSection.vue'
 </template>
 
 <style scoped>
+/* todo: rename to landing */
 .face-page {
   background-image: url(./assets//mountains.jpg);
   background-repeat: no-repeat;
@@ -40,6 +41,8 @@ import FooterSection from './components/FooterSection.vue'
     url(./assets//mountains.jpg) no-repeat center center;
   background-size: cover;
 }
+
+/* todo: rename to content */
 .continuation {
   max-width: 1280px;
   margin: 0 auto;

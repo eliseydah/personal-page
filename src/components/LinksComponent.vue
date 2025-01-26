@@ -1,6 +1,8 @@
+<!-- todo: remove to SocialsComponent -->
 <script setup lang="ts"></script>
 <template>
   <section class="links-container">
+    <!-- todo: use v-for to render this -->
     <ul>
       <li>
         <a href=""><img src="../assets/icons/github.svg" width="30" height="30" /> </a>
@@ -23,6 +25,7 @@ ul {
   gap: 1rem;
   align-items: center;
 }
+
 img {
   filter: invert(100%);
 }
