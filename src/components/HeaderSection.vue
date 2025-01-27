@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import LinksComponent from './LinksComponent.vue'
+import LinksComponent from './SocialsComponent.vue'
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import LinksComponent from './LinksComponent.vue'
       <li><a href="#my-projects">MY PROJECTS</a></li>
       <li><a href="#skills">SKILLS</a></li>
     </ul>
-    <LinksComponent class="links"></LinksComponent>
+    <LinksComponent class="socials"></LinksComponent>
   </section>
 </template>
 <style scoped>
@@ -22,9 +22,6 @@ import LinksComponent from './LinksComponent.vue'
   align-items: center;
 }
 .header-container {
-  /* todo: remove comments */
-  /* width: 100%; */
-  /* margin-top: 1.5rem; */
   display: flex;
   flex-direction: raw;
   justify-content: center;
@@ -37,7 +34,6 @@ span {
   color: var(--primary-text-color);
   text-decoration: none;
   font-size: 1.2rem;
-  /* padding: 1rem 3rem; */
 }
 
 a:hover {
@@ -61,8 +57,8 @@ a:hover {
     margin-bottom: 50px;
     align-items: end;
   }
-  /* todo: rename to socials */
-  .links {
+
+  .socials {
     align-items: flex-end;
   }
 }

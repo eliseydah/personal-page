@@ -1,4 +1,3 @@
-<!-- todo: remove to SocialsComponent -->
 <script setup lang="ts"></script>
 <template>
   <section class="links-container">

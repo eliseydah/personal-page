@@ -22,6 +22,7 @@ defineProps<{
 
 .text-back {
   position: absolute;
+  text-transform: uppercase;
   font-size: 3rem;
   font-weight: bold;
   color: rgba(250, 248, 248, 0.07);
@@ -30,6 +31,7 @@ defineProps<{
 
 .text-front {
   position: absolute;
+  text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: bold;
   color: var(--important-text-color);

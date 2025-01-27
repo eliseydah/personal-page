@@ -8,11 +8,11 @@ import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
-  <div class="face-page">
+  <div class="landing">
     <HeaderSection></HeaderSection>
     <IntroductionSection></IntroductionSection>
   </div>
-  <div class="continuation">
+  <div class="content">
     <AboutMeSection></AboutMeSection>
     <ServicesSection></ServicesSection>
     <LanguagesAndToolsSection></LanguagesAndToolsSection>
@@ -23,8 +23,7 @@ import FooterSection from './components/FooterSection.vue'
 </template>
 
 <style scoped>
-/* todo: rename to landing */
-.face-page {
+.landing {
   background-image: url(./assets//mountains.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -42,8 +41,7 @@ import FooterSection from './components/FooterSection.vue'
   background-size: cover;
 }
 
-/* todo: rename to content */
-.continuation {
+.content {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;

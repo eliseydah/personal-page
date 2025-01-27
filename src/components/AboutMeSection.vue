@@ -3,33 +3,29 @@ import SignComponent from './SignComponent.vue'
 </script>
 <template>
   <span id="about-me"></span>
-  <!-- todo: it's better to pass ABOUT ME in lowercase, and use CSS in the component to change the register -->
-  <SignComponent msg="ABOUT ME"></SignComponent>
+  <SignComponent msg="about me"></SignComponent>
   <section>
-    <!-- todo: container? -->
-    <div class="contain">
+    <div class="about-me-container">
       <div>
         <img src="../assets/forests.jpg" width="250" height="300" />
       </div>
       <div class="text-box">
-        <!-- todo: don't use <h*> since these are not headers, use CSS to style it -->
-        <h3>Hi there! I'm Daria Eliseeva</h3>
-        <h5>Frontend Developer</h5>
+        <p class="greetings">Hi there! I'm Daria Eliseeva</p>
+        <p class="main-info">Frontend Developer</p>
         <section class="main-text">
           <p>Birthday: <span>16.12.1998</span></p>
           <p>Phone: <span></span></p>
           <p>E-mail: <span> eliseydah@gmail.com</span></p>
           <p>Live in: <span> Berlin</span></p>
           <p>Language:<span> English, Russian</span></p>
-          <!-- todo: use kebab-case for class names -->
-          <button class="downloadCv">Resume</button>
+          <button class="download-cv">Resume</button>
         </section>
       </div>
     </div>
   </section>
 </template>
 <style>
-.contain {
+.about-me-container {
   font-size: 1.5rem;
   background-color: var(--card-bg-color);
   padding: 3rem 3rem;
@@ -46,7 +42,7 @@ import SignComponent from './SignComponent.vue'
   flex-direction: column;
   font-size: 1.2rem;
 }
-.downloadCv {
+.download-cv {
   margin-top: 2rem;
   width: 10rem;
   padding: 1rem 3rem;
@@ -55,16 +51,15 @@ import SignComponent from './SignComponent.vue'
   border: 0;
   border-radius: 2rem;
 }
-.downloadCv:hover {
-  /* todo: put color to the CSS variable */
-  background-color: rgba(240, 248, 255, 0.65);
+.download-cv:hover {
+  background-color: var(--secondary-text-color);
 }
-h3 {
+.greetings {
   align-self: center;
   font-size: 2rem;
   color: var(--primary-text-color);
 }
-h5 {
+.main-info {
   font-size: 1.5rem;
   color: var(--important-text-color);
   font-weight: bold;

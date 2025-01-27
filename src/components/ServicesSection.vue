@@ -53,8 +53,7 @@ const cards = [
 <template>
   <section>
     <span id="my-projects"></span>
-    <SignComponent msg="MY PROJECTS" />
-    <!-- <p class="title">SERVICES AREA</p> -->
+    <SignComponent msg="my projects" />
   </section>
   <div class="card-container">
     <CardComponent
@@ -74,7 +73,6 @@ const cards = [
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
   gap: 1rem;
   margin-top: 1rem;
 }

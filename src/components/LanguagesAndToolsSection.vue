@@ -3,7 +3,7 @@ import SignComponent from './SignComponent.vue'
 </script>
 <template>
   <span id="skills"></span>
-  <SignComponent msg="LANGUAGES AND TOOLS"></SignComponent>
+  <SignComponent msg="languages and tools"></SignComponent>
   <!-- todo: 1. use a separate component for this icon. 2. Use v-for to render it. -->
   <section class="icons">
     <img src="../assets/icons/javascript.svg" width="40" height="40" />
