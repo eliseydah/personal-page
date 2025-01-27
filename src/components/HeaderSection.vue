@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import LinksComponent from './SocialsComponent.vue'
+import SocialsLinks from './SocialsLinks.vue'
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import LinksComponent from './SocialsComponent.vue'
       <li><a href="#my-projects">MY PROJECTS</a></li>
       <li><a href="#skills">SKILLS</a></li>
     </ul>
-    <LinksComponent class="socials"></LinksComponent>
+    <SocialsLinks class="socials"></SocialsLinks>
   </section>
 </template>
 <style scoped>

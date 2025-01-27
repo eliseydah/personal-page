@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SocialsIconsComponent from './SocialsIconsComponent.vue'
+import SocialsIconsComponent from './SocialIcon.vue'
 const socialIcons = [
   {
     iconFilename: 'github.svg',

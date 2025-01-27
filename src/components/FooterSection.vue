@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-import LinksComponent from './SocialsComponent.vue'
+import LinksComponent from './SocialsLinks.vue'
 const currentTime = ref(new Date().toLocaleTimeString('en-US')) // Current time
 let timer: number
 

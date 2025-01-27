@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import SignComponent from './SignComponent.vue'
-import IconsComponent from './IconsComponent.vue'
+import IconsComponent from './IconComponent.vue'
 const icons = [
   {
     iconFilename: 'javascript.svg',
@@ -45,15 +45,6 @@ const icons = [
       :key="item.title"
       :iconFilename="item.iconFilename"
     ></IconsComponent>
-
-    <!-- <img src="../assets/icons/javascript.svg" width="40" height="40" />
-    <img src="../assets/icons/vue.svg" width="40" height="40" />
-    <img src="../assets/icons/css.svg" width="40" height="40" />
-    <img src="../assets/icons/html5.svg" width="40" height="40" />
-    <img src="../assets/icons/tailwind.svg" width="40" height="40" />
-    <img src="../assets/icons/git.svg" width="40" height="40" />
-    <img src="../assets/icons/typescript.svg" width="40" height="40" />
-    <img src="../assets/icons/nodejs.svg" width="40" height="40" /> -->
   </section>
 </template>
 <style scoped>
