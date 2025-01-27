@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SocialsIconsComponent from './SocialIcon.vue'
+import SocialIcon from './SocialIcon.vue'
 const socialIcons = [
   {
     iconFilename: 'github.svg',
@@ -11,11 +11,11 @@ const socialIcons = [
 </script>
 <template>
   <section class="links-container">
-    <SocialsIconsComponent
+    <SocialIcon
       v-for="item in socialIcons"
       :key="item.title"
       :iconFilename="item.iconFilename"
-    ></SocialsIconsComponent>
+    ></SocialIcon>
   </section>
 </template>
 <style scoped>

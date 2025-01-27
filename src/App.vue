@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import IntroductionSection from './components/IntroductionSection.vue'
-import HeaderSection from './components/HeaderSection.vue'
-import AboutMeSection from './components/AboutMeSection.vue'
-import ServicesSection from './components/ServicesSection.vue'
-import LanguagesAndToolsSection from './components/LanguagesAndToolsSection.vue'
-import FooterSection from './components/FooterSection.vue'
+import IntroductionSection from '@/modules/job/components/IntroductionSection.vue'
+import HeaderSection from '@/modules/shared/components/HeaderSection.vue'
+import AboutMeSection from '@/modules/job/components/AboutMeSection.vue'
+import ServicesSection from '@/modules/job/components/ServicesSection.vue'
+import LanguagesAndToolsSection from '@/modules/job/components/LanguagesAndToolsSection.vue'
+import FooterSection from '@/modules/shared/components/FooterSection.vue'
 </script>
 
 <template>

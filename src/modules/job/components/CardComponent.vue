@@ -9,10 +9,10 @@
     </div>
     <div class="links">
       <a v-if="linkJs" :href="linkJs">
-        <img src="../assets/icons/javascript.svg" width="25" height="25" />
+        <img src="../../../assets/icons/javascript.svg" width="25" height="25" />
       </a>
       <a v-if="linkVue" :href="linkVue">
-        <img src="../assets/icons/vue.svg" width="25" height="25"
+        <img src="../../../assets/icons/vue.svg" width="25" height="25"
       /></a>
     </div>
   </div>
@@ -43,7 +43,7 @@ const props = defineProps({
 })
 
 function getImageUrl() {
-  return new URL(`../assets/icons/${props.iconFilename}`, import.meta.url).toString()
+  return new URL(`../../../assets/icons/${props.iconFilename}`, import.meta.url).toString()
 }
 </script>
 

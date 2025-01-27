@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import SignComponent from './SignComponent.vue'
-import IconsComponent from './IconComponent.vue'
+import SignComponent from '@/modules/shared/components/SignComponent.vue'
+import IconComponent from '@/modules/shared/components/IconComponent.vue'
 const icons = [
   {
     iconFilename: 'javascript.svg',
@@ -40,11 +40,11 @@ const icons = [
   <span id="skills"></span>
   <SignComponent msg="languages and tools"></SignComponent>
   <section class="icons">
-    <IconsComponent
+    <IconComponent
       v-for="item in icons"
       :key="item.title"
       :iconFilename="item.iconFilename"
-    ></IconsComponent>
+    ></IconComponent>
   </section>
 </template>
 <style scoped>

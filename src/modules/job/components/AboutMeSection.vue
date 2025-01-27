@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SignComponent from './SignComponent.vue'
+import SignComponent from '@/modules/shared/components/SignComponent.vue'
 </script>
 <template>
   <span id="about-me"></span>
@@ -7,7 +7,7 @@ import SignComponent from './SignComponent.vue'
   <section>
     <div class="about-me-container">
       <div>
-        <img src="../assets/forests.jpg" width="250" height="300" />
+        <img src="../../../assets/forests.jpg" width="250" height="300" />
       </div>
       <div class="text-box">
         <p class="greetings">Hi there! I'm Daria Eliseeva</p>

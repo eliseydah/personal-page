@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import SignComponent from './SignComponent.vue'
-import CardComponent from './CardComponent.vue'
+import SignComponent from '@/modules/shared/components/SignComponent.vue'
+import CardComponent from '@/modules/job/components/CardComponent.vue'
 const cards = [
   {
     iconFilename: 'ledder.svg',
