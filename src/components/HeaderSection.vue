@@ -40,7 +40,6 @@ a:hover {
   color: var(--important-text-color);
 }
 
-/* todo: use CSS variables for the max-width, replace in other components too */
 @media (max-width: 576px) {
   .header-container {
     display: flex;

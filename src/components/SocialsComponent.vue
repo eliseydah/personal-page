@@ -1,40 +1,27 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import SocialsIconsComponent from './SocialsIconsComponent.vue'
+const socialIcons = [
+  {
+    iconFilename: 'github.svg',
+    title: 'GitHub',
+  },
+  { iconFilename: 'linkedin-round-svgrepo-com.svg', title: 'LinkedIn' },
+  { iconFilename: 'gmail-svgrepo-com.svg', title: 'Gmail' },
+]
+</script>
 <template>
   <section class="links-container">
-    <!-- todo: use v-for to render this -->
-    <ul>
-      <li>
-        <a href=""><img src="../assets/icons/github.svg" width="30" height="30" /> </a>
-      </li>
-      <li>
-        <a href=""
-          ><img src="../assets/icons/linkedin-round-svgrepo-com.svg" width="30" height="30" />
-        </a>
-      </li>
-      <li>
-        <a href=""><img src="../assets/icons/gmail-svgrepo-com.svg" width="30" height="30" /> </a>
-      </li>
-    </ul>
+    <SocialsIconsComponent
+      v-for="item in socialIcons"
+      :key="item.title"
+      :iconFilename="item.iconFilename"
+    ></SocialsIconsComponent>
   </section>
 </template>
 <style scoped>
-ul {
-  list-style-type: none;
+.links-container {
   display: flex;
   gap: 1rem;
   align-items: center;
-}
-
-img {
-  filter: invert(100%);
-}
-
-a {
-  display: block;
-  height: 25px;
-}
-
-a:hover {
-  color: var(--important-text-color);
 }
 </style>

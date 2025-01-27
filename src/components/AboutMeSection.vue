@@ -30,11 +30,9 @@ import SignComponent from './SignComponent.vue'
   background-color: var(--card-bg-color);
   padding: 3rem 3rem;
   display: flex;
-  /* gap: 2rem; */
   box-sizing: content-box;
   justify-content: space-around;
   align-items: center;
-  /* height: 50vh; */
 }
 .text-box {
   display: flex;
@@ -65,7 +63,7 @@ import SignComponent from './SignComponent.vue'
   font-weight: bold;
 }
 @media (max-width: 576px) {
-  .contain {
+  .about-me-container {
     display: flex;
     flex-direction: column;
   }

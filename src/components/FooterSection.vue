@@ -1,18 +1,20 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 import LinksComponent from './SocialsComponent.vue'
-// todo: use EN locale
-const currentTime = ref(new Date().toLocaleTimeString('ru-RU')) // Текущее время
+const currentTime = ref(new Date().toLocaleTimeString('en-US')) // Current time
 let timer: number
 
-// Start an interval for updating the time
 onMounted(() => {
   timer = setInterval(() => {
-    currentTime.value = new Date().toLocaleTimeString('ru-RU')
+    currentTime.value = new Date().toLocaleTimeString('en-US', {
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true,
+    })
   }, 1000)
 })
 
-// Clear the interval when unmounting the component
+// clear the timer when the component is unmounted
 onUnmounted(() => {
   clearInterval(timer)
 })

@@ -4,6 +4,13 @@ import CardComponent from './CardComponent.vue'
 // todo: add Sergej's application
 const cards = [
   {
+    iconFilename: 'ledder.svg',
+    title: 'Scaffolding Management',
+    description:
+      'This app provide basic functionalities to manage a very specific scaffolding business. The functionality basically includes client management and invoice management',
+    linkVue: 'https://github.com/fr-ser/scaffolding-management',
+  },
+  {
     iconFilename: 'list.svg',
     title: 'To-do list',
     description:
