@@ -2,20 +2,17 @@
 import HeaderSection from '@/modules/shared/components/HeaderSection.vue'
 import FooterSection from '@/modules/shared/components/FooterSection.vue'
 import IntroductionHeader from '@/modules/hobby/components/IntroductionHeader.vue'
-import IntroductionHobby from '@/modules/hobby/components/IntroductionHobby.vue'
 import NaturePhotos from '@/modules/hobby/components/NaturePhotos.vue'
 import UrbanPhotos from '@/modules/hobby/components/UrbanPhotos.vue'
 import SportSection from '@/modules/hobby/components/SportSection.vue'
+import TextCard from '@/modules/shared/components/TextCard.vue'
 </script>
 <template>
   <div class="landing">
     <div class="intro">
       <HeaderSection></HeaderSection>
-      <!-- <Card>
-        <p>Это контент, переданный в слот!</p>
-      </Card> -->
       <IntroductionHeader></IntroductionHeader>
-      <IntroductionHobby>
+      <TextCard>
         <p>
           Everyone has a passion that brings them joy and inspiration. My hobby is nature
           photography. I love capturing beautiful landscapes, the play of light and shadow, the
@@ -27,7 +24,7 @@ import SportSection from '@/modules/hobby/components/SportSection.vue'
           and the contrast between nature and urban life. Every city has its own character, and
           through my photos, I try to show its unique atmosphere and hidden beauty.
         </p>
-      </IntroductionHobby>
+      </TextCard>
     </div>
     <!-- </div>
   <div class="content"> -->

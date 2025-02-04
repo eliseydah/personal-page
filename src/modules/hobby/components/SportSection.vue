@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import PhotoCarousel from '@/modules/hobby/components/PhotoCarousel.vue'
 import SignComponent from '@/modules/shared/components/SignComponent.vue'
-import IntroductionHobby from './IntroductionHobby.vue'
+import TextCard from '@/modules/shared/components/TextCard.vue'
 const photos = [
   {
     url: new URL(`../../../assets/urban/01.jpg`, import.meta.url).toString(),
@@ -47,7 +47,7 @@ const photos = [
 </script>
 <template>
   <SignComponent msg="My Sports activities"></SignComponent>
-  <IntroductionHobby>
+  <TextCard>
     <p>
       I love sports and outdoor activities. They help me stay healthy, active, and energized. I
       enjoy hiking, practicing pilates, and playing volleyball.Sports are not only a great way to
@@ -55,7 +55,7 @@ const photos = [
       believe that a healthy body leads to a healthy mind, and sports are an essential part of my
       life.
     </p>
-  </IntroductionHobby>
+  </TextCard>
   <PhotoCarousel :photos="photos"></PhotoCarousel>
 </template>
 <style scoped>
