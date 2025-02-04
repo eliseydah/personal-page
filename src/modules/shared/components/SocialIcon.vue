@@ -4,6 +4,10 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  link: {
+    type: String,
+    required: false,
+  },
 })
 
 function getImageUrl() {
@@ -12,7 +16,7 @@ function getImageUrl() {
 </script>
 <template>
   <div>
-    <a href=""> <img :src="getImageUrl()" class="svg-icon" width="30" height="30" /></a>
+    <a :href="props.link"> <img :src="getImageUrl()" class="svg-icon" width="30" height="30" /></a>
   </div>
 </template>
 <style scoped>

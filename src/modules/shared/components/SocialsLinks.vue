@@ -4,9 +4,14 @@ const socialIcons = [
   {
     iconFilename: 'github.svg',
     title: 'GitHub',
+    link: 'https://github.com/eliseydah',
   },
-  { iconFilename: 'linkedin-round-svgrepo-com.svg', title: 'LinkedIn' },
-  { iconFilename: 'gmail-svgrepo-com.svg', title: 'Gmail' },
+  {
+    iconFilename: 'linkedin-round-svgrepo-com.svg',
+    title: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/daria-eliseeva-67084234a/',
+  },
+  { iconFilename: 'gmail-svgrepo-com.svg', title: 'Gmail', link: 'mailto:eliseydah@gmail.com' },
 ]
 </script>
 <template>
@@ -15,6 +20,7 @@ const socialIcons = [
       v-for="item in socialIcons"
       :key="item.title"
       :iconFilename="item.iconFilename"
+      :link="item.link"
     ></SocialIcon>
   </section>
 </template>
