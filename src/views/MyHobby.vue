@@ -3,7 +3,8 @@ import HeaderSection from '@/modules/shared/components/HeaderSection.vue'
 import FooterSection from '@/modules/shared/components/FooterSection.vue'
 import IntroductionHeader from '@/modules/hobby/components/IntroductionHeader.vue'
 import IntroductionHobby from '@/modules/hobby/components/IntroductionHobby.vue'
-import PhotoMap from '@/modules/hobby/components/PhotoMap.vue'
+import NaturePhotos from '@/modules/hobby/components/NaturePhotos.vue'
+import UrbanPhotos from '@/modules/hobby/components/UrbanPhotos.vue'
 </script>
 <template>
   <div class="landing">
@@ -14,7 +15,8 @@ import PhotoMap from '@/modules/hobby/components/PhotoMap.vue'
     </div>
     <!-- </div>
   <div class="content"> -->
-    <PhotoMap></PhotoMap>
+    <NaturePhotos></NaturePhotos>
+    <UrbanPhotos></UrbanPhotos>
     <FooterSection></FooterSection>
   </div>
 </template>

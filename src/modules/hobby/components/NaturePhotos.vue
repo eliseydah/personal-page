@@ -47,7 +47,5 @@ const photos = [
 <template>
   <SignComponent msg="Nature Photo"></SignComponent>
   <PhotoCarousel :photos="photos"></PhotoCarousel>
-  <SignComponent msg="Urban Photo"></SignComponent>
-  <PhotoCarousel :photos="photos"></PhotoCarousel>
 </template>
 <style scoped></style>
