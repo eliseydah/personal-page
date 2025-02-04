@@ -9,7 +9,7 @@ const socialIcons = [
   {
     iconFilename: 'linkedin-round-svgrepo-com.svg',
     title: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/daria-eliseeva-67084234a/',
+    link: 'https://www.linkedin.com/in/eliseydah/',
   },
   { iconFilename: 'gmail-svgrepo-com.svg', title: 'Gmail', link: 'mailto:eliseydah@gmail.com' },
 ]
