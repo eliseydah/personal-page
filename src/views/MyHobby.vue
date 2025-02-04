@@ -26,8 +26,6 @@ import TextCard from '@/modules/shared/components/TextCard.vue'
         </p>
       </TextCard>
     </div>
-    <!-- </div>
-  <div class="content"> -->
     <NaturePhotos></NaturePhotos>
     <UrbanPhotos></UrbanPhotos>
     <SportSection></SportSection>

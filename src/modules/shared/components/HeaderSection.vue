@@ -9,7 +9,7 @@ import SocialsLinks from '@/modules/shared/components/SocialsLinks.vue'
       <li><RouterLink to="/#about-me">ABOUT ME</RouterLink></li>
       <li><RouterLink to="/#my-projects">MY PROJECTS</RouterLink></li>
       <li><RouterLink to="/#skills">SKILLS</RouterLink></li>
-      <li><RouterLink to="/hobby">MY HOBBYS</RouterLink></li>
+      <li><RouterLink to="/hobby">MY HOBBIES</RouterLink></li>
     </ul>
     <SocialsLinks class="socials"></SocialsLinks>
   </section>

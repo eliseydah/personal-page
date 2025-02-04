@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <section class="container">
-    <p>my hobbys</p>
+    <p>my hobbies</p>
     <div class="line"></div>
   </section>
 </template>
@@ -13,7 +13,6 @@ p {
   color: var(--primary-text-color);
   opacity: 0.5;
   letter-spacing: 0.2rem;
-  /* color: rgba(250, 248, 248, 0.07); */
 }
 .line {
   margin-top: 1rem;
