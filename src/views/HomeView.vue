@@ -40,6 +40,6 @@ import FooterSection from '@/modules/shared/components/FooterSection.vue'
 .content {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem 2rem;
 }
 </style>

@@ -38,6 +38,11 @@ p {
     flex-direction: column;
     width: 100%;
     padding: 0rem;
+    margin-bottom: 2rem;
+  }
+  .box {
+    padding: 1.5rem 2rem;
+    box-sizing: content-box;
   }
 }
 </style>

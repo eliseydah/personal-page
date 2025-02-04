@@ -57,4 +57,9 @@ import TextCard from '@/modules/shared/components/TextCard.vue'
 p {
   line-height: 2rem;
 }
+@media (max-width: 576px) {
+  .intro {
+    height: auto;
+  }
+}
 </style>

@@ -40,6 +40,7 @@ defineProps<{
 @media (max-width: 576px) {
   .container-sign {
     padding: 1rem 0rem;
+    margin: 1rem 1rem;
   }
   .text-back {
     font-size: 2rem;

@@ -21,4 +21,17 @@
   align-items: center;
   padding: 0rem 0rem 2.5rem;
 }
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0rem;
+    margin-bottom: 2rem;
+  }
+  .box {
+    padding: 1.5rem 2rem;
+    box-sizing: content-box;
+  }
+}
 </style>
