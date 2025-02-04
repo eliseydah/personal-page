@@ -14,7 +14,7 @@ defineProps({
 const config = {
   height: 500,
   itemsToShow: 4,
-  gap: 1,
+  gap: 3,
   wrapAround: true,
 }
 </script>
@@ -22,7 +22,7 @@ const config = {
 <template>
   <Carousel v-bind="config">
     <Slide v-for="image in photos" :key="image.id">
-      <img :src="image.url" height="600" alt="image" />
+      <img :src="image.url" width="400" height="600" alt="image" />
     </Slide>
 
     <template #addons>

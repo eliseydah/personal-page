@@ -3,43 +3,43 @@ import PhotoCarousel from '@/modules/hobby/components/PhotoCarousel.vue'
 import SignComponent from '@/modules/shared/components/SignComponent.vue'
 const photos = [
   {
-    url: new URL(`../../../assets/nature/IMG_01.JPG`, import.meta.url).toString(),
+    url: new URL(`../../../assets/urban/01.jpg`, import.meta.url).toString(),
     id: '01',
   },
   {
-    url: new URL(`../../../assets/nature/IMG_02.JPG`, import.meta.url).toString(),
+    url: new URL(`../../../assets/urban/02.jpg`, import.meta.url).toString(),
     id: '02',
   },
   {
-    url: new URL(`../../../assets/nature/IMG_03.JPG`, import.meta.url).toString(),
+    url: new URL(`../../../assets/urban/05.jpg`, import.meta.url).toString(),
     id: '03',
   },
   {
-    url: new URL(`../../../assets/nature/IMG_04.JPG`, import.meta.url).toString(),
+    url: new URL(`../../../assets/urban/04.jpg`, import.meta.url).toString(),
     id: '04',
   },
   {
-    url: new URL(`../../../assets/nature/IMG_05.JPG`, import.meta.url).toString(),
+    url: new URL(`../../../assets/urban/06.jpg`, import.meta.url).toString(),
     id: '05',
   },
   {
-    url: new URL(`../../../assets/nature/IMG_06.JPG`, import.meta.url).toString(),
+    url: new URL(`../../../assets/urban/07.jpg`, import.meta.url).toString(),
     id: '06',
   },
   {
-    url: new URL(`../../../assets/nature/IMG_07.JPG`, import.meta.url).toString(),
+    url: new URL(`../../../assets/urban/08.jpg`, import.meta.url).toString(),
     id: '07',
   },
   {
-    url: new URL(`../../../assets/nature/IMG_08.JPG`, import.meta.url).toString(),
+    url: new URL(`../../../assets/urban/01.jpg`, import.meta.url).toString(),
     id: '08',
   },
   {
-    url: new URL(`../../../assets/nature/IMG_09.JPG`, import.meta.url).toString(),
+    url: new URL(`../../../assets/urban/09.jpg`, import.meta.url).toString(),
     id: '09',
   },
   {
-    url: new URL(`../../../assets/nature/IMG_10.JPG`, import.meta.url).toString(),
+    url: new URL(`../../../assets/urban/04.jpg`, import.meta.url).toString(),
     id: '10',
   },
 ]
