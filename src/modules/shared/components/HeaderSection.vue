@@ -5,10 +5,11 @@ import SocialsLinks from '@/modules/shared/components/SocialsLinks.vue'
 <template>
   <section class="main">
     <ul class="header-container">
-      <li><a href="#home">HOME</a></li>
-      <li><a href="#about-me">ABOUT ME</a></li>
-      <li><a href="#my-projects">MY PROJECTS</a></li>
-      <li><a href="#skills">SKILLS</a></li>
+      <li><RouterLink to="/">HOME</RouterLink></li>
+      <li><RouterLink to="/#about-me">ABOUT ME</RouterLink></li>
+      <li><RouterLink to="/#my-projects">MY PROJECTS</RouterLink></li>
+      <li><RouterLink to="/#skills">SKILLS</RouterLink></li>
+      <li><RouterLink to="/hobby">MY HOBBYS</RouterLink></li>
     </ul>
     <SocialsLinks class="socials"></SocialsLinks>
   </section>
