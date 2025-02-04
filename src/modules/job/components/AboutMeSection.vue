@@ -7,7 +7,7 @@ import SignComponent from '@/modules/shared/components/SignComponent.vue'
   <section>
     <div class="about-me-container">
       <div>
-        <img src="../../../assets/personal.JPG" width="225" height="300" />
+        <img src="../../../assets/personal-pic.jpg" width="225" height="300" />
       </div>
       <div class="text-box">
         <p class="greetings">Hi there! I'm Daria Eliseeva</p>
