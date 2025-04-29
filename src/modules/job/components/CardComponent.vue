@@ -14,6 +14,12 @@
       <a v-if="linkVue" :href="linkVue">
         <img src="../../../assets/icons/vue.svg" width="25" height="25"
       /></a>
+      <a v-if="linkReact" :href="linkVue">
+        <img src="../../../assets/icons/react.svg" width="25" height="25"
+      /></a>
+      <a v-if="linkKotlin" :href="linkVue">
+        <img src="../../../assets/icons/kotlin.svg" width="25" height="25"
+      /></a>
     </div>
   </div>
 </template>
@@ -37,6 +43,14 @@ const props = defineProps({
     required: false,
   },
   linkVue: {
+    type: String,
+    required: false,
+  },
+  linkReact: {
+    type: String,
+    required: false,
+  },
+  linkKotlin: {
     type: String,
     required: false,
   },

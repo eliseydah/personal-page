@@ -57,7 +57,10 @@ a:hover {
     margin-bottom: 50px;
     align-items: end;
   }
-
+  .container {
+    gap: 0.2rem;
+    font-size: 0.5rem;
+  }
   .socials {
     align-items: flex-end;
   }

@@ -16,6 +16,7 @@ const cards = [
       'A simple application for managing task lists. Allows you to add, delete and mark tasks as completed.',
     linkJS: 'https://github.com/eliseydah/todo-js/tree/master/todo',
     linkVue: 'https://github.com/eliseydah/todo-js/tree/master/vue-todo',
+    linkReact: 'https://github.com/eliseydah/my-projects/tree/master/react/react-todo',
   },
   {
     iconFilename: 'message.svg',
@@ -24,6 +25,7 @@ const cards = [
       'A simple application that simulates chat functionality, showcasing only the frontend without any backend integration.',
     linkJS: 'https://github.com/eliseydah/todo-js/tree/master/chat',
     linkVue: 'https://github.com/eliseydah/todo-js/tree/master/vue-chat',
+    linkReact: 'https://github.com/eliseydah/my-projects/tree/master/react/react-chat',
   },
   {
     iconFilename: 'wheel.svg',
@@ -39,6 +41,7 @@ const cards = [
       'A simple application for creating a list of wishes. It allows you to create a wish card, describe a wish, upload a picture, add a link, and delete the wish card.',
     linkJS: 'https://github.com/eliseydah/todo-js/tree/master/wishlist',
     linkVue: 'https://github.com/eliseydah/todo-js/tree/master/vue-wishlist',
+    linkReact: 'https://github.com/eliseydah/my-projects/tree/master/react/react-wishlist',
   },
   {
     iconFilename: 'weather.svg',
@@ -46,13 +49,21 @@ const cards = [
     description: 'A simple web-page which allows to search a weather.',
     linkJS: 'https://github.com/eliseydah/todo-js/tree/master/weather',
     linkVue: 'https://github.com/eliseydah/todo-js/tree/master/vue-weather-widget',
+    linkReact: 'https://github.com/eliseydah/my-projects/tree/master/react/react-weather',
   },
   {
-    iconFilename: 'layout.svg',
-    title: 'Layout training',
+    iconFilename: 'plant.svg',
+    title: 'Plants shop',
     description:
-      'A simple application for creating a list of wishes. It allows you to create a wish card, describe a wish, upload a picture, add a link, and delete the wish card.',
-    linkJS: 'https://github.com/eliseydah/todo-js/tree/master/landing',
+      'A plant shop web page where users can choose plants, view detailed information about each one, and add favorites.The plants are also organized into several sections, allowing users to easily find a category that suits their needs.',
+    linkReact: 'https://github.com/eliseydah/my-projects/tree/master/react/react-plants',
+  },
+  {
+    iconFilename: 'kotlin.svg',
+    title: 'Lotto game',
+    description:
+      'An application that simulates a lottery game. The user can enter an amount to buy tickets (divisible by 1,000), choose their winning numbers, and provide a bonus number. The program calculates how many numbers match in the purchased tickets and displays the winning results and total profit.',
+    linkKotlin: 'https://github.com/eliseydah/kotlin-lotto-precourse/tree/eliseydah',
   },
 ]
 </script>
@@ -70,6 +81,8 @@ const cards = [
       :iconFilename="card.iconFilename"
       :link-js="card.linkJS"
       :link-vue="card.linkVue"
+      :link-react="card.linkReact"
+      :link-kotlin="card.linkKotlin"
     />
   </div>
 </template>
