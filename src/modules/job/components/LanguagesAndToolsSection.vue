@@ -34,6 +34,14 @@ const icons = [
     iconFilename: 'nodejs.svg',
     title: 'Node.js',
   },
+  {
+    iconFilename: 'react.svg',
+    title: 'React',
+  },
+  {
+    iconFilename: 'kotlin.svg',
+    title: 'Kotlin',
+  },
 ]
 </script>
 <template>
